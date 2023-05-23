@@ -133,7 +133,7 @@ namespace ChallengesWithTestsMark8.Tests
             ChallengesSet01 challenger = new ChallengesSet01();
 
             // Act
-            string actual = challenger.GetGreeting(personName);
+            string actual = ChallengesSet01.GetGreeting(personName);
 
             // Assert
             Assert.Equal(expectedGreeting, actual);
