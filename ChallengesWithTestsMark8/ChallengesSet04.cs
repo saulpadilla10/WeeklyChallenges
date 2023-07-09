@@ -72,7 +72,6 @@ namespace ChallengesWithTestsMark8
             }
 
             var evens = numbers.Where(nums => nums % 2 == 0);
-            //double averageEven = evens.Average();
 
             if (evens.Count() == 0)
             {
